@@ -119,10 +119,40 @@
             git log --graph
         ```
 
-        - 分支策略
-            - 项目拥有稳定的master分支，我们平时的开发就在devlop中开发，每个开发者拥有自己的分支，都是从dev分出来的，这样开发好相应的功能后再将其合并到dev上，再有manager合并到相应主分支，并实施发布。
+    - 分支策略
+        - 项目拥有稳定的master分支，我们平时的开发就在devlop中开发，每个开发者拥有自己的分支，都是从dev分出来的，这样开发好相应的功能后再将其合并到dev上，再有manager合并到相应主分支，并实施发布。
 
-            - - ![](./images/dev-master.png)
+        - ![](./images/dev-master.png)
+
+    - Bug分支：
+        - 在开发新功能，这是(QA)有bug来了，并且要立刻修掉
+            
+        ```sh
+            # stash一下你还没开发完的东西
+            git stash
+            git checkout -b  bug-{bigid}
+            # 修改好后进行提交，提交完回到开发分支
+            git stash pop
+            # 继续开发新功能
+        ```
+
+    - 开发新功能，创建新分支，大家基于这个分支进行开发，开发好，经过测试，在合并到dev分支，最后删除分支。
+    
+    -协作开发
+        - 在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+        - 建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
+        
+        - 更新代码方式：
+            
+            - 在提交代码前要更新带码，看没有冲突在提交
+            
+            ```sh
+                git stash
+                git fetch
+                git rebase "dev"
+                git stash pop
+            ```
+
 
 
 3. 统一概念：
