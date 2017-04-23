@@ -95,12 +95,12 @@
 
 8. 分支管理
     - 图解
-        - ![](./images/0-1.jpg)
-        - ![](./images/1.jpg)
-        - ![](./images/2.jpg)
-        - ![](./images/3.jpg)
-        - ![](./images/4.jpg)
-        - ![](./images/5.jpg)
+        - ![](./images/0-1.png)
+        - ![](./images/1.png)
+        - ![](./images/2.png)
+        - ![](./images/3.png)
+        - ![](./images/4.png)
+        - ![](./images/5.png)
 
     - 创建与合并分支
         - Git鼓励大量使用分支：
