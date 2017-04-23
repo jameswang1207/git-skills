@@ -122,7 +122,9 @@
         - 分支策略
             - 项目拥有稳定的master分支，我们平时的开发就在devlop中开发，每个开发者拥有自己的分支，都是从dev分出来的，这样开发好相应的功能后再将其合并到dev上，再有manager合并到相应主分支，并实施发布。
 
-            - - ![](./images/dev-master.png)
+            - ![](./images/dev-master.png)
+
+        - 修复Bug，
 
 
 3. 统一概念：
