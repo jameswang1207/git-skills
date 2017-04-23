@@ -49,7 +49,7 @@
     - 工作区  暂存区  版本库
         - 工作区： 就是你在电脑里能看到的目录，比如我的git-skills文件夹就是一个工作区：
         - 暂存区：
-            ![](./images/0.jpg)
+            ![](./images/0.jpg)
         - 版本库： 工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库
         - 工作区--- git add --- 缓存区 --- 分支----
     - Git跟踪并管理的是修改，而非文件
@@ -94,7 +94,22 @@
         - 远程有一个仓库，大家从远程clone下来，就可以开发了。
 
 8. 分支管理
+    - 图解
+        - ![](./images/0-1.jpg)
+        - ![](./images/1.jpg)
+        - ![](./images/2.jpg)
+        - ![](./images/3.jpg)
+        - ![](./images/4.jpg)
+        - ![](./images/5.jpg)
 
+    - 创建与合并分支
+        - Git鼓励大量使用分支：
+        - 查看分支：git branch
+        - 创建分支：git branch <name>
+        - 切换分支：git checkout <name>
+        - 创建+切换分支：git checkout -b <name>
+        - 合并某分支到当前分支：git merge <name>
+        - 删除分支：git branch -d <name>
 
 
 3. 统一概念：
