@@ -138,7 +138,7 @@
 
     - 开发新功能，创建新分支，大家基于这个分支进行开发，开发好，经过测试，在合并到dev分支，最后删除分支。
     
-    -协作开发
+    - 协作开发
         - 在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
         - 建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
         
@@ -153,18 +153,10 @@
                 git stash pop
             ```
 
+9. git 忽略文件----->看例子
+    - https://github.com/jameswangAugmentum/B2C-online/blob/master/.gitignore
 
-
-3. 统一概念：
-	- 工作区：改动（增删文件和内容）
-	- 暂存区：输入命令：`git add 改动的文件名`，此次改动就放到了‘暂存区’
-	- 本地仓库(简称：本地)：输入命令：`git commit 此次修改的描述`，此次改动就放到了’本地仓库’，每个commit，我叫它为一个‘版本’。
-	- 远程仓库(简称：远程)：输入命令：`git push 远程仓库`，此次改动就放到了‘远程仓库’（GitHub等)
-	- commit-id：输出命令：`git log`，最上面那行`commit xxxxxx`，后面的字符串就是commit-id
-
-4.对象：Git用户，还有的高深的命令，等用到再google。
-
-## 目录
+## 目录------> git 相关命令，并不齐全，有发现新命令我们一起添加完全---》merger request给我。
 * [展示帮助信息](#展示帮助信息)
 * [回到远程仓库的状态](#回到远程仓库的状态)
 * [重设第一个commit](#重设第一个commit)
