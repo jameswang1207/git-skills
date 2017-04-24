@@ -157,7 +157,7 @@
 9. git 忽略文件----->看例子
     - https://github.com/jameswangAugmentum/B2C-online/blob/master/.gitignore
 
-## 目录------> git 相关命令，并不齐全，有发现新命令我们一起添加完全---》merger request给我。
+## 目录------> git 相关命令，并不齐全.
 * [展示帮助信息](#展示帮助信息)
 * [回到远程仓库的状态](#回到远程仓库的状态)
 * [重设第一个commit](#重设第一个commit)
