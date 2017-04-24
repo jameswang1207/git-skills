@@ -1,4 +1,6 @@
-# Git相关--------https://git-scm.com/book/zh/v2
+# Git相关
+- https://git-scm.com/book/zh/v2
+- http://backlogtool.com/git-guide/cn/
 
 ## 写在前面
 
