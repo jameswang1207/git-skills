@@ -1,6 +1,7 @@
 # Git相关
 - https://git-scm.com/book/zh/v2
 - http://backlogtool.com/git-guide/cn/
+- [解决.gitignore文件忽略规则无效git依然跟踪修改的问题] (https://shiyousan.com/post/636470505667009340)
 
 ## 目录------> git 相关命令，并不齐全-----> 发现有用的命令可以merge request 给我.
 * [展示帮助信息](#展示帮助信息)
